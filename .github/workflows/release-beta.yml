@@ -62,3 +62,4 @@ jobs:
       with:
         prerelease: true
         files: ./build/esp-miner.bin
+        token: ${{ secrets.GH_TOKEN }}
